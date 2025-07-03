@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html>
+
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Focacciamo</title> <!-- Título de la pestaña del navegador -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <!-- Enlace externo al archivo CSS de estilos -->
+  </head>
+
+  <body>
+
+    <header> <!-- Encabezado -->
+        
+        
+        <img src="imagenes/fondoHeader.png" alt="Mesa">     <!-- Imagen de fondo del header-->
+    
+        <img src="imagenes/pizzaGif.gif" alt="pizza" class="pizza-gif">  <!--  Inserto una imagen y creo la clase "pizza-gif"  -->
+        
+
+
+        <!-- Título principal -->
+        <div class="TituloHeader">
+            <h1>Focacciamo</h1> 
+        </div>
+
+
+         
+    </header>
+
+    <main>  
+      
+
+      <div class="fondoMain">
+        <!-- Contenedor principal del fondo de la sección main -->
+
+        <img src="imagenes/fondoDibujos.jpg" alt="fondo" class="fondoMain">      <!-- Imagen de fondo dde pantalla -->
+       
+
+
+
+        <div class="caja1">   <!-- Contiene "Carta" y "Recetas" -->
+          
+
+          
+          <!-- Acá creo la clase "pedidos" y le doy propiedades de estilo css solo a esta imagen" -->
+          <div class="pedidos" style="
+              display: flex;
+              background-image: url(imagenes/gatitoGifCome.gif);
+              background-size: 130%;
+              background-repeat: no-repeat;
+              background-position: center;
+              overflow: hidden;
+              object-fit: cover; 
+              ">
+            
+
+            <h3> 
+              <a href="Menu.html" target="_blank" rel="noopener noreferrer"> Carta  </a>    <!-- Enlace - Nueva pestaña -->
+              
+            </h3>
+
+
+          </div>
+
+          <div class="pedidos" style="
+              display: flex;
+              background-image: url(imagenes/gatitoGifAmasa.gif);
+              background-size: 130%;
+              background-repeat: no-repeat;
+              background-position: center;
+              overflow: hidden;
+              object-fit: cover; 
+              ">
+
+              <h3> 
+              <a href="Menu.html" target="_blank" rel="noopener noreferrer"> Recetas  </a>    <!-- Enlace - Nueva pestaña -->
+              
+            </h3>
+            
+            
+          </div>
+
+        </div> <!-- caja1 -->
+
+      </div> <!-- fondoMain -->
+
+    </main>
+
+
+
+    <footer>    <!-- Pie de pagina -->
+      
+      <!-- Enlace a página de Instagram Focaccia  -  Nueva pestaña-->
+      <a href="https://www.instagram.com/focacciamo.ok/" target="_blank" rel="noopener noreferrer">
+        <img src="imagenes/instagramGif.gif"
+             alt="instagramLink"
+             class="instaGif">
+        <!-- Enlace con gif animado hacia Instagram --> <!-- Corregir. Lo recorté y cambió el formato. Canceló la animación -->
+      </a>
+
+      
+    </footer>
+
+  </body>
+</html>
